@@ -21,7 +21,6 @@
           "lat":40.717575,
           "lon":-73.9627
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.9191456,
           "count":{
@@ -60,16 +59,8 @@
         "late_cancellation":"early",
         "lockers":true,
         "organization_id":1095,
-        "phone_number":"718-388-8889",
+        "phone_number":"555-555-5555",
         "pro_tip":"With race season in full effect, Warrior Fitness Boot Camp is the place to get in shape and across the finish line! Please note: This class is advanced, and the instructors will push you! It includes running, stairs, pushups, and an obstacle course. Come ready to work!",
-        "requirements":{
-          "user":{
-            "address":true,
-            "date_of_birth":true,
-            "emergency_contact":true,
-            "phone":true
-          }
-        },
         "showers":true,
         "subtitle":"Brooklyn",
         "transportation":"123",
@@ -84,7 +75,6 @@
             "activities":"",
             "alias":"virtual-training-17109c655af",
             "level":"Open Level",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -107,13 +97,8 @@
                   "reason":"expires_before",
                   "status":"unavailable"
                 },
-                "teacher":{
-                  "id":16056409,
-                  "name":"Alex Fell"
-                },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Alex Fell",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -141,13 +126,8 @@
                   "reason":"expires_before",
                   "status":"unavailable"
                 },
-                "teacher":{
-                  "id":16056409,
-                  "name":"Alex Fell"
-                },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Alex Fell",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -205,7 +185,6 @@
           "lat":40.745567,
           "lon":-73.99416
         },
-        "source":"MSINVENTORY",
         "ratings":{
           "mean":4.908319,
           "count":{
@@ -242,16 +221,8 @@
         "late_cancellation":"early",
         "lockers":false,
         "organization_id":21570,
-        "phone_number":"+15555555555",
+        "phone_number":"555-555-5555",
         "pro_tip":"",
-        "requirements":{
-          "user":{
-            "address":false,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":false
-          }
-        },
         "showers":false,
         "transportation":"159",
         "what_to_bring":"159",
@@ -271,7 +242,6 @@
             "alias":"swedish-massage-173b48648c0",
             "level":"Open Level",
             "description":"Description. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team.Please only add services that are within your ClassPass contract. If you would like to add more services, please contact the Account Management team. END",
-            "source":"MSINVENTORY",
             "ratings":{
               "mean":4.8,
               "count":{
@@ -293,9 +263,6 @@
                 "availability":{
                   "reason":"expires_before",
                   "status":"unavailable"
-                },
-                "teacher":{
-
                 },
                 "display_duration":"30 min",
                 "duration_minutes":30,
@@ -327,9 +294,6 @@
                   "reason":"expires_before",
                   "status":"unavailable"
                 },
-                "teacher":{
-
-                },
                 "display_duration":"30 min",
                 "duration_minutes":30,
                 "cancellation_policy":"MSINVENTORY",
@@ -359,9 +323,6 @@
                 "availability":{
                   "reason":"expires_before",
                   "status":"unavailable"
-                },
-                "teacher":{
-
                 },
                 "display_duration":"30 min",
                 "duration_minutes":30,
@@ -625,7 +586,6 @@
             "activities":"Hair, Massage, Nails",
             "alias":"wellness-massage-174bff34e80",
             "level":"Open Level",
-            "source":"MSINVENTORY",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -1059,7 +1019,6 @@
             "activities":"",
             "alias":"brows-174fea3d457",
             "level":"Open Level",
-            "source":"MSINVENTORY",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -1384,7 +1343,6 @@
             "alias":"hour-long-message-174fea3d4ac",
             "level":"Open Level",
             "description":"it's great to relax",
-            "source":"MSINVENTORY",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -1639,7 +1597,6 @@
             "activities":"",
             "alias":"long-appointment-177d48c33b7",
             "level":"Open Level",
-            "source":"MSINVENTORY",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -1846,7 +1803,6 @@
             "alias":"swedish-massage-1735228855f",
             "level":"Open Level",
             "description":"Gratuity and additional enhancements are not included in the cost of your reservation. Please remember to tip based on the full amount of the service reserved.",
-            "source":"MSINVENTORY",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -1881,7 +1837,6 @@
                 ],
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Jennifer The Singer",
                 "cancellation_policy":"MSINVENTORY",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -1994,7 +1949,6 @@
           "lat":40.753407,
           "lon":-74.02972
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.86943,
           "count":{
@@ -2032,16 +1986,8 @@
         "late_cancellation":"early",
         "lockers":false,
         "organization_id":4349,
-        "phone_number":"2014146262",
+        "phone_number":"555-555-5555",
         "pro_tip":"Come experience Brazen Athletics and see what REAL coaching is like! Please arrive 10 minutes prior to the start of class.",
-        "requirements":{
-          "user":{
-            "address":false,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":false
-          }
-        },
         "showers":true,
         "subtitle":"Hoboken",
         "transportation":"",
@@ -2057,7 +2003,6 @@
             "alias":"wod-uy6m",
             "level":"Open Level",
             "description":"IMPORTANT! PLEASE READ OUR SIGN OUT AND NO SHOW POLICY Sign OUTS/Cancellations All classes must be cancelled 1 hour prior to the start of class if you cannot attend in order to avoid a penalty. As of 8/11/2021 there will be a $10 charge for any sign outs that occur within 1 hour of the start of class if the class is full and/or there is a waitlist AND a class will be deducted from you account No Show PolicyThere is a penally for no shows regardless if class is waitlisted or full. As of 8/11/2021 there will be a $10 no show fee AND a class will be deducted from your account ARRIVAL TO BRAZENPLEASE ARRIVE TO CLASS A FEW MINUTES EARLY. Classes start promptly and by coming in late you will miss important instruction. Equipment must be thoroughly wiped down after your workout. You are responsible for leaving your workout station the way you found it. Your cooperation is appreciated, have a great workout!",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":4.8534107,
               "count":{
@@ -2081,12 +2026,10 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":16283188,
-                  "name":"Jeff Johnson"
+
                 },
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Jeff Johnson",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -2112,12 +2055,10 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":15908076,
-                  "name":"Courtney Roselle"
+
                 },
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Courtney Roselle",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -2173,7 +2114,6 @@
           "lat":41.004307,
           "lon":-74.11739
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.839,
           "count":{
@@ -2213,16 +2153,8 @@
         "late_cancellation":"early",
         "lockers":false,
         "organization_id":8685,
-        "phone_number":"201.445.4245",
+        "phone_number":"555-555-5555",
         "pro_tip":"With over 5,000 square feet of expansive yoga studio space, a fresh and contemporary design and challenging yet accessible yoga classes taught by the most sought-after yoga instructors in the area, Flow Yoga Studio allows for you to dedicate time to yourself and experience pure yoga bliss",
-        "requirements":{
-          "user":{
-            "address":false,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":false
-          }
-        },
         "showers":false,
         "subtitle":"",
         "transportation":"Take Hollywood Avenue in Ho-Ho-Kus, drive through the blinking light, over the train tracks, make a left at the stop sign and make a right at the next stop sign. They are located behind Extra Storage Space.",
@@ -2238,7 +2170,6 @@
             "alias":"heated-vinyasa-flow",
             "level":"Open Level",
             "description":"This class class was designed with the intention of offering a middle-ground between their super sweaty, heated vinyasa and their non-heated flow class by setting temperature to a comfortably warm 75-80 degrees. You can expect all of the same elements that you receive in their other signature flow classes - an inventive and vigorous flowing of postures guided by deep and steady breath, along with the added ingredient of a glistening, purifying sweat. This delicious and energizing practice will of course end with a blissful savansana to soak in all the benefits of the practice.\n\nThis is the perfect class for those looking to transition their practice into a warmer environment, or those who are just looking to achieve enhanced sweat.",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":4.8381505,
               "count":{
@@ -2262,12 +2193,10 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":16197958,
-                  "name":"Rachel Vassak"
+
                 },
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Rachel Vassak",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -2365,12 +2294,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":20879683,
-                  "name":"Eve St. John"
                 },
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Eve St. John",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -2498,7 +2424,6 @@
           "lat":40.673687,
           "lon":-73.93097
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.827796,
           "count":{
@@ -2537,16 +2462,8 @@
         "late_cancellation":"early",
         "lockers":false,
         "organization_id":2192,
-        "phone_number":"3479212404",
+        "phone_number":"555-555-5555",
         "pro_tip":"All Fit4Dance classes have high energy levels and contagious smiles. Please check Class Description for more info.",
-        "requirements":{
-          "user":{
-            "address":false,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":true
-          }
-        },
         "showers":false,
         "subtitle":"",
         "transportation":"The studio is easily accessible from the A/C or the 3/4 trains at Utica Ave. \r\nThe B46 bus also drops off directly across the street.",
@@ -2562,7 +2479,6 @@
             "alias":"zumba-93ft",
             "level":"Open Level",
             "description":"Zumba Fitness® is the only Latin-inspired dance-fitness program that blends red-hot international music and contagious steps to form a \"fitness-party\" that is downright addictive. Since its inception in 2001, the Zumba program has grown to become the world's largest – and most successful – dance-fitness program with more than 14 million people of all shapes, sizes and ages taking weekly Zumba classes in over 140,000 locations across more than 150 countries.",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":4.8963733,
               "count":{
@@ -2586,12 +2502,10 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":12602920,
-                  "name":"Laci"
+
                 },
                 "display_duration":"50 min",
                 "duration_minutes":50,
-                "teacher_name":"Laci",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -2714,7 +2628,6 @@
           "lat":40.756428,
           "lon":-73.98883
         },
-        "source":"MSINVENTORY",
         "ratings":{
           "mean":4.8683276,
           "count":{
@@ -2757,14 +2670,6 @@
         "lockers":false,
         "organization_id":20925,
         "pro_tip":"",
-        "requirements":{
-          "user":{
-            "address":false,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":false
-          }
-        },
         "showers":false,
         "subtitle":"dis schedules",
         "transportation":"",
@@ -2778,7 +2683,6 @@
             "activities":"Hair, Nails",
             "alias":"jolies-massage-170693eed23",
             "level":"Open Level",
-            "source":"MSINVENTORY",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -3182,7 +3086,6 @@
             "activities":"",
             "alias":"jolies-facial-170693eed5e",
             "level":"Open Level",
-            "source":"MSINVENTORY",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -3556,7 +3459,6 @@
           "lat":40.7165,
           "lon":-73.9951
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.798152,
           "count":{
@@ -3596,16 +3498,8 @@
         "late_cancellation":"early",
         "lockers":false,
         "organization_id":5966,
-        "phone_number":"2122035786",
+        "phone_number":"555-555-5555",
         "pro_tip":"Mats provided for free. All levels welcome.",
-        "requirements":{
-          "user":{
-            "address":false,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":false
-          }
-        },
         "showers":false,
         "subtitle":"CHINATOWN",
         "transportation":"Entrance to building is under awning that reads 55-59 Chrystie. Front door is unlocked. Studio is on the 4th floor.",
@@ -3621,7 +3515,6 @@
             "alias":"sky-ting-yoga-7xru",
             "level":"Open Level",
             "description":"The yoga we teach is a medley of lineages. All styles of yoga have something important to offer and we steal from them all! Cross-pollinating yogic material allows us to create something wholly new yet refined with rich substance and history. In biology, monocultures are highly susceptible to disease and death. Likewise, we believe that braiding a diverse pool of influences helps us create the strongest possible offering for the physical, emotional and cultural health and well being of our wonderful community. The primary traditions we study and borrow from most are Katonah, Taoist, Hatha and Vinyasa, as well as several different meditation and breathing practices.Classes are open to all levels of experience from beginner to advanced. ",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":4.8027086,
               "count":{
@@ -3645,12 +3538,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21601391,
-                  "name":"Abigail Stevenson"
                 },
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Abigail Stevenson",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -3762,12 +3652,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21675908,
-                  "name":"Chelsey Forbes"
                 },
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Chelsey Forbes",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -3909,7 +3796,6 @@
           "lat":40.72335,
           "lon":-73.99328
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.7973747,
           "count":{
@@ -3947,16 +3833,8 @@
         "late_cancellation":"early",
         "lockers":false,
         "organization_id":656,
-        "phone_number":"(212) 335-0375",
+        "phone_number":"555-555-5555",
         "pro_tip":"To preserve the experience of all clients, there is no admittance to class beginning 10 minutes after start time.",
-        "requirements":{
-          "user":{
-            "address":true,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":true
-          }
-        },
         "showers":false,
         "subtitle":"Bowery",
         "website":"http://www.newyorkpilates.com/",
@@ -3971,7 +3849,6 @@
             "alias":"pilates-reformer-abs-arms-ass",
             "level":"Open Level",
             "description":"An intermediate level class focused on toning and sculpting stubborn areas of the body. This AAA workout is ideal for all Pilates lovers.",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":4.7980375,
               "count":{
@@ -3995,12 +3872,10 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21634805,
-                  "name":"Sydney Lastorino"
+
                 },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Sydney Lastorino",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -4110,12 +3985,10 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21667665,
-                  "name":"Anais Torres Colls"
+
                 },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Anais Torres Colls",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -4225,12 +4098,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21634805,
-                  "name":"Sydney Lastorino"
                 },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Sydney Lastorino",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -4340,12 +4210,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21667665,
-                  "name":"Anais Torres Colls"
                 },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Anais Torres Colls",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -4455,12 +4322,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21634805,
-                  "name":"Sydney Lastorino"
                 },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Sydney Lastorino",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -4570,12 +4434,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21667665,
-                  "name":"Anais Torres Colls"
                 },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Anais Torres Colls",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -4685,12 +4546,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21634805,
-                  "name":"Sydney Lastorino"
                 },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Sydney Lastorino",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -4800,12 +4658,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21634805,
-                  "name":"Sydney Lastorino"
                 },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Sydney Lastorino",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -4945,7 +4800,6 @@
           "lat":40.778664,
           "lon":-73.95082
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.7937818,
           "count":{
@@ -4984,16 +4838,8 @@
         "late_cancellation":"early",
         "lockers":false,
         "organization_id":3810,
-        "phone_number":"212.410.1424",
+        "phone_number":"555-555-5555",
         "pro_tip":"Most fitness programs offered are well-suited for beginners, intermediates and advanced athletes, but Hurt Locker is best for advanced athletes only.",
-        "requirements":{
-          "user":{
-            "address":false,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":false
-          }
-        },
         "showers":true,
         "transportation":"New Location! At 87th Street and 2nd Ave!",
         "website":"http://www.crossfitconcretejungle.com",
@@ -5008,7 +4854,6 @@
             "alias":"bars-and-bells-rkh7",
             "level":"Open Level",
             "description":"Thoughtful approach to getting stronger using barbells and kettlebells.  This class follows a strength program through progression of different lifts to improve physical strength and movement patterns.\r\n\r\nSchedule: \r\nMonday - Squat\r\nTuesday - Bench\r\nWednesday - Front Squat\r\nThursday - Press\r\nFriday - Deadlift\r\nSaturday - Squat",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":4.865801,
               "count":{
@@ -5128,7 +4973,6 @@
           "lat":40.871452,
           "lon":-74.17181
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.786137,
           "count":{
@@ -5167,16 +5011,8 @@
         "late_cancellation":"early",
         "lockers":true,
         "organization_id":5554,
-        "phone_number":"9733655856",
+        "phone_number":"555-555-5555",
         "pro_tip":"Please bring a yoga mat, water and towel. Mats are available for $2 for rent and water for sale from the studio.\r\n<br><br>\r\nIf you plan to shower, please bring your own shower towel.",
-        "requirements":{
-          "user":{
-            "address":true,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":true
-          }
-        },
         "showers":true,
         "subtitle":"Clifton",
         "transportation":"Plenty of free parking in front of studio or shared lot with The Barrow's restaurant with a pathway leading directly to studio.",
@@ -5192,7 +5028,6 @@
             "alias":"hot-power-hour-preregistration-required-173fee0bec9",
             "level":"Open Level",
             "description":"Hot Powerflow Vinyasa is our signature, upbeat yoga practice that gets you out of your head and back into your body. You’ll work hard to link together your movements and breath while you flow through a series of traditional yoga poses. It’s a sweaty, powerful and meditative experience that will help you turn down the noise of everyday life. This open-level class is set to music. Modifications and variations will be offered to tailor the practice to your individual needs.IN-STUDIO POLICY:As we gradually open to full capacity we will still have capacity limitations. We encourage you to continue to pre-register for classes. If you decide to walk in please know there is a chance the class is full and you will not be able to take class.If you are unable to attend, cancel your reservation 8 hours prior to the start time. If you do not attend class and have not canceled, you will lose the class from your package (single drop-ins or numbered packages) or be charged $25 if you have an Unlimited Package (applies to: Intro Offers, Unlimited Month, Power Plus Membership or 1 Year Unlimited). For Class Pass cancellations, requests must be made through Class Pass. Class Pass is not accepted at all locations.Rental Mats and straps are not available at this time. Communal Blocks are available for use. Please clean blocks after use. We ask that you limit items brought into the studio. Only bring your own mat, blocks, straps, and towels. Cell phones are not permitted in the hot room.Showers and dressing rooms are open.Class will be set to 98 degrees with 40% humidity.",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -5216,12 +5051,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21629347,
-                  "name":"Kristen Fazio"
                 },
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Kristen Fazio",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -5247,12 +5079,9 @@
                   "status":"unavailable"
                 },
                 "teacher":{
-                  "id":21673015,
-                  "name":"Vicki Reisbaum"
                 },
                 "display_duration":"60 min",
                 "duration_minutes":60,
-                "teacher_name":"Vicki Reisbaum",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -5308,7 +5137,6 @@
           "lat":40.739563,
           "lon":-74.00494
         },
-        "source":"MINDBODYAPI",
         "ratings":{
           "mean":4.7741,
           "count":{
@@ -5346,16 +5174,8 @@
         "late_cancellation":"early",
         "lockers":true,
         "organization_id":10066,
-        "phone_number":"212-220-0529",
+        "phone_number":"555-555-5555",
         "pro_tip":"The lower level space is at 13 Gansevoort St (Corner of Hudson St). If the door is locked, buzz the intercom.",
-        "requirements":{
-          "user":{
-            "address":true,
-            "date_of_birth":false,
-            "emergency_contact":false,
-            "phone":true
-          }
-        },
         "showers":false,
         "transportation":"Located on the lower level at 13 Gansevoort St (corner of Hudson St) in the Meatpacking district. Press intercom for access.",
         "website":"http://www.liftonic.com/",
@@ -5370,7 +5190,6 @@
             "alias":"legs-butt-back-studio-lt-burn-17c60a290be",
             "level":"Open Level",
             "description":"Amazing things happen when you target large muscle groups with true weight training exercises. Our signature class format focuses on Squats, Lunges, Rows and more. Get inspired to lift heavy and watch your body transform! Low to medium repetition sets of leg and back exercises combined is a killer combination. Add in some isolated butt exercises including exercise bands and you have a non-stop weight training class that delivers results",
-            "source":"MINDBODYAPI",
             "ratings":{
               "mean":0.0,
               "count":{
@@ -5393,13 +5212,8 @@
                   "reason":"expires_before",
                   "status":"unavailable"
                 },
-                "teacher":{
-                  "id":21508429,
-                  "name":"Scott Leiendecker"
-                },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Scott Leiendecker",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -5427,13 +5241,8 @@
                   "reason":"expires_before",
                   "status":"unavailable"
                 },
-                "teacher":{
-                  "id":21508429,
-                  "name":"Scott Leiendecker"
-                },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Scott Leiendecker",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
@@ -5460,13 +5269,8 @@
                   "reason":"expires_before",
                   "status":"unavailable"
                 },
-                "teacher":{
-                  "id":21508429,
-                  "name":"Scott Leiendecker"
-                },
                 "display_duration":"45 min",
                 "duration_minutes":45,
-                "teacher_name":"Scott Leiendecker",
                 "cancellation_policy":"MINDBODYAPI",
                 "late_cancellation":"early",
                 "org_visits_including_plus":0,
