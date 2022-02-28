@@ -17,56 +17,65 @@
 package com.example.recyclersample.data
 
 import android.content.res.Resources
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.example.recyclersample.R
+import com.example.recyclersample.data.model.AttendingFriend
+import com.example.recyclersample.data.model.NestedSearch
+import com.google.gson.Gson
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.core.Single
+import java.io.BufferedInputStream
+import java.util.concurrent.TimeUnit
+import kotlin.random.Random
 
-/* Handles operations on flowersLiveData and holds details about it. */
 class DataSource(resources: Resources) {
-    private val initialFlowerList = flowerList(resources)
-    private val flowersLiveData = MutableLiveData(initialFlowerList)
+    val nestedSearchLiveData = MutableLiveData(
+        NestedSearch(
+            venues = mutableListOf(),
+            search_id = 0,
+            radius_used = null,
+            schedule_context = null
+        )
+    )
+    private val fakeNestedSearch: NestedSearch
 
-    /* Adds flower to liveData and posts value. */
-    fun addFlower(flower: Flower) {
-        val currentList = flowersLiveData.value
-        if (currentList == null) {
-            flowersLiveData.postValue(listOf(flower))
-        } else {
-            val updatedList = currentList.toMutableList()
-            updatedList.add(0, flower)
-            flowersLiveData.postValue(updatedList)
-        }
+    init {
+        val bufferedInputStream = BufferedInputStream(resources.openRawResource(R.raw.venue_data))
+        fakeNestedSearch = Gson().fromJson(bufferedInputStream.reader(), NestedSearch::class.java)
+        bufferedInputStream.close()
     }
 
-    /* Removes flower from liveData and posts value. */
-    fun removeFlower(flower: Flower) {
-        val currentList = flowersLiveData.value
-        if (currentList != null) {
-            val updatedList = currentList.toMutableList()
-            updatedList.remove(flower)
-            flowersLiveData.postValue(updatedList)
-        }
+    fun fetchSearchResults() {
+        Single
+            .just(fakeNestedSearch)
+            .delay(Random.nextLong() % 5, TimeUnit.SECONDS)
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe ({
+                nestedSearchLiveData.value = it
+            }, {
+                it.printStackTrace()
+            })
     }
 
-    /* Returns flower given an ID. */
-    fun getFlowerForId(id: Long): Flower? {
-        flowersLiveData.value?.let { flowers ->
-            return flowers.firstOrNull{ it.id == id}
-        }
-        return null
-    }
+    fun fetchAttendingFriends() {
+        Single.just(FAKE_FRIENDS_ATTENDING)
+            .delay(Random.nextLong() % 5, TimeUnit.SECONDS)
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe ({
 
-    fun getFlowerList(): LiveData<List<Flower>> {
-        return flowersLiveData
-    }
+            }, {
 
-    /* Returns a random flower asset for flowers that are added. */
-    fun getRandomFlowerImageAsset(): Int? {
-        val randomNumber = (initialFlowerList.indices).random()
-        return initialFlowerList[randomNumber].image
+            })
     }
 
     companion object {
         private var INSTANCE: DataSource? = null
+        val FAKE_FRIENDS_ATTENDING =  listOf(
+            AttendingFriend(
+                name = "John Snow",
+                scheduleId = 224360915L
+            )
+        )
 
         fun getDataSource(resources: Resources): DataSource {
             return synchronized(DataSource::class) {

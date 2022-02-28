@@ -23,22 +23,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/flower_finder"
+        android:text="@string/venue_listing"
         android:textAppearance="?attr/textAppearanceHeadline3" />
 
     <TextView
-        android:id="@+id/flower_number_text"
+        android:id="@+id/venue_number_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textAppearance="?attr/textAppearanceHeadline6" />
 
     <TextView
-        android:id="@+id/flower_text"
+        android:id="@+id/venue_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/flower_string"
+        android:text="@string/venue_string"
         android:textAppearance="?attr/textAppearanceHeadline6" />
 
 </LinearLayout>

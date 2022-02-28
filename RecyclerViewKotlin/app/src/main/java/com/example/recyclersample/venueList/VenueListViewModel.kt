@@ -14,43 +14,27 @@
  * limitations under the License.
  */
 
-package com.example.recyclersample.flowerList
+package com.example.recyclersample.venueList
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.recyclersample.data.DataSource
-import com.example.recyclersample.data.Flower
-import kotlin.random.Random
 
-class FlowersListViewModel(val dataSource: DataSource) : ViewModel() {
-
-    val flowersLiveData = dataSource.getFlowerList()
-
-    /* If the name and description are present, create new Flower and add it to the datasource */
-    fun insertFlower(flowerName: String?, flowerDescription: String?) {
-        if (flowerName == null || flowerDescription == null) {
-            return
-        }
-
-        val image = dataSource.getRandomFlowerImageAsset()
-        val newFlower = Flower(
-            Random.nextLong(),
-            flowerName,
-            image,
-            flowerDescription
-        )
-
-        dataSource.addFlower(newFlower)
+class VenueListViewModel(val dataSource: DataSource) : ViewModel() {
+    val venueLiveData = dataSource.nestedSearchLiveData
+    fun onCreate() {
+        dataSource.fetchSearchResults()
+        dataSource.fetchAttendingFriends()
     }
 }
 
-class FlowersListViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
+class VenueListViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
 
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(FlowersListViewModel::class.java)) {
+        if (modelClass.isAssignableFrom(VenueListViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")
-            return FlowersListViewModel(
+            return VenueListViewModel(
                 dataSource = DataSource.getDataSource(context.resources)
             ) as T
         }
